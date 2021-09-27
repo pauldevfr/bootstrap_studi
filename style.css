@@ -1,0 +1,17 @@
+
+
+
+.pt-1 {
+    padding-top: 4rem !important;
+}
+
+.img-acc {
+    width: 350px;
+    height: 450px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
