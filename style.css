@@ -1,5 +1,50 @@
 
+.card {
+    transition: .2s ease-in-out;
+}
 
+.card:hover {
+    -webkit-box-shadow: 0px 0px 40px 10px #4F46E5; 
+    box-shadow: 0px 0px 40px -5px #4F46E5;
+}
+
+
+.btn-primary {
+    background-color: #4F46E5;
+    border: #4F46E5;
+    border-radius: 0px;
+    transition: .2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #6366F1;
+    transform: scale(1.1);
+}
+
+.btn-primary:active {
+    background-color: #6366F1;
+    box-shadow: #818CF8 0 0 0 0.25rem;
+}
+
+.btn-primary:focus {
+    background-color: #6366F1;
+    box-shadow: #818CF8 0 0 0 0.25rem;
+}
+
+.btn-primary:active:focus {
+    box-shadow: #818CF8 0 0 0 0.25rem;
+}
+
+
+
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.6rem;
+}
 
 .pt-1 {
     padding-top: 4rem !important;
@@ -35,7 +80,7 @@ li {
 
 @media screen and (max-width: 992px) {
     .carousel-inner {
-        height: 40vh;
+        height: 32vh;
     }
 }
 
